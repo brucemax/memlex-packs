@@ -7,7 +7,7 @@ files are published as [releases](../../releases):
   (entries, senses, word forms, frequency rank, starter lists) and `<lang>-<target>.db.gz` holds translations into
   one target language. All files are gzip-compressed SQLite databases.
 - `index`: `index.json`, the list of available packs. The app reads it from
-  `https://github.com/brucemax/memorizer-packs/releases/download/index/index.json`.
+  `https://github.com/brucemax/memlex-packs/releases/download/index/index.json`.
 
 ## License and attribution
 

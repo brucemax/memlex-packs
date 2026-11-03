@@ -1,6 +1,6 @@
-# Memorizer language packs
+# Memlex language packs
 
-Downloadable dictionary packs for the Memorizer vocabulary app. This repository holds data only, no code. The
+Downloadable dictionary packs for the Memlex vocabulary app. This repository holds data only, no code. The
 files are published as [releases](../../releases):
 
 - `<lang>-v<N>`: one language version. `<lang>.json` is the manifest; `<lang>-base.db.gz` holds the dictionary

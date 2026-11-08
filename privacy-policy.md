@@ -5,16 +5,17 @@ permalink: /privacy-policy.html
 
 # Memlex privacy policy
 
-Effective: 3 November 2026
+Effective: 8 November 2026
 
 Memlex is a vocabulary app for Android and iPhone. This policy says what happens to your data when you use it.
 
 ## The short version
 
-- No accounts, no sign-in.
-- No analytics, no ads, no tracking, no crash reporting.
+- No accounts, no sign-in, no ads, no tracking across apps.
 - Your words, lists, pictures you chose and your learning progress are stored only on your device.
-- The developer does not receive or sell any personal data.
+- The app sends anonymous usage statistics and crash reports to Google Firebase, never your words. You can turn this
+  off in Settings.
+- The developer does not sell any data.
 
 ## What stays on your device
 
@@ -46,11 +47,44 @@ privacy policies, and the developer receives nothing from them:
   day and copies of the pictures it delivered, to answer the next request faster; it does not store who searched.
   Cloudflare sees your IP address to deliver the response and to limit the number of requests per address.
 
-Nothing else is sent: no identifiers, no usage statistics, no contents of your lists.
+- **Usage statistics and crash reports**, described in the next section.
+
+Nothing else is sent: no contents of your lists.
+
+## Usage statistics and crash reports
+
+To see whether the app works and where it needs improving, the app uses two Google services: Google Analytics for
+Firebase (usage statistics) and Firebase Crashlytics (crash reports).
+
+**What is sent:**
+
+- Events about how the app is used: onboarding steps reached and whether onboarding was finished, a word saved and
+  whether it was typed, spoken or taken from a photo and saved with a picture, a learning session finished with its
+  mode and number of cards, a starter list added or words imported with their number, a language pack downloaded
+  with its languages and whether it worked.
+- The app's edition, its interface language and the language you translate into.
+- When the app crashes: the technical report of the crash (where in the app's code it happened), the app version,
+  the device model and the system version.
+- Random identifiers created by Firebase for this installation of the app, used to count users and group reports.
+  They are not linked to your name, email or any account.
+- Like any internet service, Google sees your device's IP address when receiving the data.
+
+**What is never sent:** your words, translations, examples, list names, pictures, photos, recordings, search queries,
+file names or anything else you type, say or photograph; the advertising identifier of your device. The data is not
+used to track you across other apps or websites and is not used for advertising.
+
+**How long it is kept:** crash reports are kept by Firebase for 90 days; usage events are kept for 2 months, after
+which only aggregated, anonymous reports remain.
+
+**How to turn it off:** Settings → "Share usage statistics and crash reports". When it is off, the app sends neither
+usage statistics nor crash reports. It is on by default.
+
+Google processes this data under its own terms and privacy policy (firebase.google.com/support/privacy).
 
 ## Children
 
-The app collects no personal data from anyone, children included.
+The app asks no one for personal data, children included. The anonymous usage statistics and crash reports
+described above are the same for everyone and can be turned off in Settings.
 
 ## Changes
 

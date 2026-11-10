@@ -5,7 +5,7 @@ permalink: /privacy-policy.html
 
 # Memlex privacy policy
 
-Effective: 8 November 2026
+Effective: 11 November 2026
 
 Memlex is a vocabulary app for Android and iPhone. This policy says what happens to your data when you use it.
 
@@ -15,6 +15,8 @@ Memlex is a vocabulary app for Android and iPhone. This policy says what happens
 - Your words, lists, pictures you chose and your learning progress are stored only on your device.
 - The app sends anonymous usage statistics and crash reports to Google Firebase, never your words. You can turn this
   off in Settings.
+- Buying Memlex Premium goes through Google Play or the App Store. The purchase service RevenueCat receives the purchase
+  and an anonymous ID created by the app, never your name, email or words.
 - The developer does not sell any data.
 
 ## What stays on your device
@@ -47,9 +49,27 @@ privacy policies, and the developer receives nothing from them:
   day and copies of the pictures it delivered, to answer the next request faster; it does not store who searched.
   Cloudflare sees your IP address to deliver the response and to limit the number of requests per address.
 
+- **Purchases**, described in the section "Memlex Premium purchases" below.
 - **Usage statistics and crash reports**, described in the next section.
 
 Nothing else is sent: no contents of your lists.
+
+## Memlex Premium purchases
+
+Memlex Premium is optional. When you buy it or restore a purchase:
+
+- **The payment** is made in Google Play or the App Store, under their terms and privacy policies. The developer never
+  sees your payment details, name or email.
+- **RevenueCat** (revenuecat.com), the service the app uses to check purchases, receives: an anonymous app user ID
+  created by the app on your device (not linked to your name, email or any account), the purchase record from the store
+  (which product, its price and currency, the purchase and renewal dates, the store's transaction identifiers), the
+  store country, the app version and the device's system version. Like any internet service, it sees your device's IP
+  address. The app asks RevenueCat whether Premium is active when it starts and after a purchase.
+- **RevenueCat never receives** your words, lists, progress, pictures or anything else you create in the app.
+- RevenueCat keeps the purchase records so that Premium stays active and can be restored on a new device with the same
+  store account. It processes them for the developer under its privacy policy: <https://www.revenuecat.com/privacy>.
+
+The statistics switch in Settings does not turn this off: without it purchases could not be checked.
 
 ## Usage statistics and crash reports
 
@@ -61,7 +81,8 @@ Firebase (usage statistics) and Firebase Crashlytics (crash reports).
 - Events about how the app is used: onboarding steps reached and whether onboarding was finished, a word saved and
   whether it was typed, spoken or taken from a photo and saved with a picture, a learning session finished with its
   mode and number of cards, a starter list added or words imported with their number, a language pack downloaded
-  with its languages and whether it worked.
+  with its languages and whether it worked, the Premium screen opened (and from where), a purchase started and how it
+  ended (bought, pending, cancelled, failed) with the plan, and a restore with whether a purchase was found.
 - The app's edition, its interface language and the language you translate into.
 - When the app crashes: the technical report of the crash (where in the app's code it happened), the app version,
   the device model and the system version.
